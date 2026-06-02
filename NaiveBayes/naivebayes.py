@@ -52,7 +52,7 @@ class NaiveBayesFilter(ClassifierMixin):
         '''
         raise NotImplementedError("Problem 3 incomplete")
 
-def prob4(filename = 'sms_spam_collection.csv'):
+def prob4(filename='sms_spam_collection.csv'):
     """
     Create a train-test split and use it to train a NaiveBayesFilter.
     Predict the labels of the test set.
@@ -108,7 +108,7 @@ class PoissonBayesFilter(ClassifierMixin):
         '''
         raise NotImplementedError("Problem 5 incomplete")
 
-def prob6(filename = 'sms_spam_collection.csv'):
+def prob6(filename='sms_spam_collection.csv'):
     """
     Create a train-test split and use it to train a PoissonBayesFilter.
     Predict the labels of the test set.
